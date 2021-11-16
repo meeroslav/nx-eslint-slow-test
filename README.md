@@ -2,10 +2,10 @@
 
 There are two projects in here: `plain` & `custom-eslint-slow`.
 
-This repo exists to show that when generating a custom eslint workflow-rule that is super simple it significantly adds to the lint time as we increase the amount of libraries/apps involved.
+This repo exists to show that when generating a custom eslint @nrwl/linter:workspace-rule that is just the generated example where it significantly adds to the lint time as we increase the amount of libraries/apps involved.
 
 * The `plain` application uses nest as its base workspace generator and has 9 generated libs.
-* The `custom-eslint-slow` uses nest as its base workspace generator and has 9 generated libs and a custom eslint workflow-rule.
+* The `custom-eslint-slow` uses nest as its base workspace generator and has 9 generated libs and a custom eslint @nrwl/linter:workspace-rule
 
 When running the command `time npx nx run-many --target=lint --all --skip-nx-cache` in each project we can see how the timings change due to the custom eslint workflow-rule. When running against a single lib or app it is insignificant (1-2 sec) but when running against many targets we start to see how that adds up (10s vs 27s).
 
