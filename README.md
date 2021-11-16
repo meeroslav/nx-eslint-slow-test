@@ -7,7 +7,7 @@ This repo exists to show that when generating a custom eslint @nrwl/linter:works
 * The `plain` application uses nest as its base workspace generator and has 9 generated libs.
 * The `custom-eslint-slow` uses nest as its base workspace generator and has 9 generated libs and a custom eslint @nrwl/linter:workspace-rule
 
-When running the command `time npx nx run-many --target=lint --all --skip-nx-cache` in each project we can see how the timings change due to the custom eslint workflow-rule. When running against a single lib or app it is insignificant (1-2 sec) but when running against many targets we start to see how that adds up (10s vs 27s).
+When running the command `time npx nx run-many --target=lint --all --skip-nx-cache` in each project we can see how the timings change due to the custom eslint @nrwl/linter:workspace-rule. When running against a single lib or app it is insignificant (1-2 sec) but when running against many targets we start to see how that adds up (10s vs 27s).
 
 plain
 ---
