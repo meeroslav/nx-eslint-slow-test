@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/lib9",
+  "sourceRoot": "libs/api/lib9/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/lib9/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/lib9"],
+      "options": {
+        "jestConfig": "libs/api/lib9/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

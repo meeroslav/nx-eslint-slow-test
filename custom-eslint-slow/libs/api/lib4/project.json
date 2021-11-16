@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/lib4",
+  "sourceRoot": "libs/api/lib4/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/lib4/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/lib4"],
+      "options": {
+        "jestConfig": "libs/api/lib4/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

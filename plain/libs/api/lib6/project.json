@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/lib6",
+  "sourceRoot": "libs/api/lib6/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/lib6/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/lib6"],
+      "options": {
+        "jestConfig": "libs/api/lib6/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

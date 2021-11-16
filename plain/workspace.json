@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "projects": {
+    "api-lib1": "libs/api/lib1",
+    "api-lib10": "libs/api/lib10",
+    "api-lib2": "libs/api/lib2",
+    "api-lib3": "libs/api/lib3",
+    "api-lib4": "libs/api/lib4",
+    "api-lib5": "libs/api/lib5",
+    "api-lib6": "libs/api/lib6",
+    "api-lib7": "libs/api/lib7",
+    "api-lib8": "libs/api/lib8",
+    "api-lib9": "libs/api/lib9",
+    "plain": "apps/plain"
+  }
+}
