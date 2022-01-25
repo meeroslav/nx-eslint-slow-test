@@ -10,7 +10,7 @@
     "api-lib7": "libs/api/lib7",
     "api-lib8": "libs/api/lib8",
     "api-lib9": "libs/api/lib9",
-    "custom-eslint-slow": "apps/custom-eslint-slow",
+    "plain": "apps/plain",
     "eslint-rules": "tools/eslint-rules"
   }
 }

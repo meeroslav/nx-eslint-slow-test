@@ -15,15 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@custom-eslint-slow/api/lib1": ["libs/api/lib1/src/index.ts"],
-      "@custom-eslint-slow/api/lib2": ["libs/api/lib2/src/index.ts"],
-      "@custom-eslint-slow/api/lib3": ["libs/api/lib3/src/index.ts"],
-      "@custom-eslint-slow/api/lib4": ["libs/api/lib4/src/index.ts"],
-      "@custom-eslint-slow/api/lib5": ["libs/api/lib5/src/index.ts"],
-      "@custom-eslint-slow/api/lib6": ["libs/api/lib6/src/index.ts"],
-      "@custom-eslint-slow/api/lib7": ["libs/api/lib7/src/index.ts"],
-      "@custom-eslint-slow/api/lib8": ["libs/api/lib8/src/index.ts"],
-      "@custom-eslint-slow/api/lib9": ["libs/api/lib9/src/index.ts"]
+      "@plain/api/lib1": ["libs/api/lib1/src/index.ts"],
+      "@plain/api/lib2": ["libs/api/lib2/src/index.ts"],
+      "@plain/api/lib3": ["libs/api/lib3/src/index.ts"],
+      "@plain/api/lib4": ["libs/api/lib4/src/index.ts"],
+      "@plain/api/lib5": ["libs/api/lib5/src/index.ts"],
+      "@plain/api/lib6": ["libs/api/lib6/src/index.ts"],
+      "@plain/api/lib7": ["libs/api/lib7/src/index.ts"],
+      "@plain/api/lib8": ["libs/api/lib8/src/index.ts"],
+      "@plain/api/lib9": ["libs/api/lib9/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

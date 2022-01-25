@@ -16,7 +16,6 @@
     "baseUrl": ".",
     "paths": {
       "@plain/api/lib1": ["libs/api/lib1/src/index.ts"],
-      "@plain/api/lib10": ["libs/api/lib10/src/index.ts"],
       "@plain/api/lib2": ["libs/api/lib2/src/index.ts"],
       "@plain/api/lib3": ["libs/api/lib3/src/index.ts"],
       "@plain/api/lib4": ["libs/api/lib4/src/index.ts"],

@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'custom-eslint-slow',
+  displayName: 'plain',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -11,5 +11,5 @@ module.exports = {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/custom-eslint-slow',
+  coverageDirectory: '../../coverage/apps/plain',
 };

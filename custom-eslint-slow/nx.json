@@ -1,5 +1,5 @@
 {
-  "npmScope": "custom-eslint-slow",
+  "npmScope": "plain",
   "affected": {
     "defaultBase": "main"
   },
@@ -30,5 +30,5 @@
       }
     ]
   },
-  "defaultProject": "custom-eslint-slow"
+  "defaultProject": "plain"
 }

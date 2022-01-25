@@ -17,7 +17,6 @@ sam@sam-XPS-13-9310:~/work/nx-eslint-slow-test/plain$ time npx nx run-many --tar
 
 >  NX  Running target lint for 11 project(s):
 
-  - api-lib10
   - api-lib1
   - api-lib2
   - api-lib3
@@ -30,13 +29,6 @@ sam@sam-XPS-13-9310:~/work/nx-eslint-slow-test/plain$ time npx nx run-many --tar
   - plain
 
 ———————————————————————————————————————————————
-
-> nx run api-lib10:lint 
-
-Linting "api-lib10"...
-
-All files pass linting.
-
 
 > nx run api-lib1:lint 
 

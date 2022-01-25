@@ -1,16 +1,16 @@
 {
-  "root": "apps/custom-eslint-slow",
-  "sourceRoot": "apps/custom-eslint-slow/src",
+  "root": "apps/plain",
+  "sourceRoot": "apps/plain/src",
   "projectType": "application",
   "targets": {
     "build": {
       "executor": "@nrwl/node:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/custom-eslint-slow",
-        "main": "apps/custom-eslint-slow/src/main.ts",
-        "tsConfig": "apps/custom-eslint-slow/tsconfig.app.json",
-        "assets": ["apps/custom-eslint-slow/src/assets"]
+        "outputPath": "dist/apps/plain",
+        "main": "apps/plain/src/main.ts",
+        "tsConfig": "apps/plain/tsconfig.app.json",
+        "assets": ["apps/plain/src/assets"]
       },
       "configurations": {
         "production": {
@@ -19,8 +19,8 @@
           "inspect": false,
           "fileReplacements": [
             {
-              "replace": "apps/custom-eslint-slow/src/environments/environment.ts",
-              "with": "apps/custom-eslint-slow/src/environments/environment.prod.ts"
+              "replace": "apps/plain/src/environments/environment.ts",
+              "with": "apps/plain/src/environments/environment.prod.ts"
             }
           ]
         }
@@ -29,21 +29,21 @@
     "serve": {
       "executor": "@nrwl/node:execute",
       "options": {
-        "buildTarget": "custom-eslint-slow:build"
+        "buildTarget": "plain:build"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/custom-eslint-slow/**/*.ts"]
+        "lintFilePatterns": ["apps/plain/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/custom-eslint-slow"],
+      "outputs": ["coverage/apps/plain"],
       "options": {
-        "jestConfig": "apps/custom-eslint-slow/jest.config.js",
+        "jestConfig": "apps/plain/jest.config.js",
         "passWithNoTests": true
       }
     }

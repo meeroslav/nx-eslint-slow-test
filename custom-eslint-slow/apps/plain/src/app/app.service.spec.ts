@@ -14,9 +14,9 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to custom-eslint-slow!"', () => {
+    it('should return "Welcome to plain!"', () => {
       expect(service.getData()).toEqual({
-        message: 'Welcome to custom-eslint-slow!',
+        message: 'Welcome to plain!',
       });
     });
   });
