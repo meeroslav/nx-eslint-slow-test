@@ -16,8 +16,8 @@
 
 import { ESLintUtils } from '@typescript-eslint/experimental-utils';
 
-// NOTE: The rule will be available in ESLint configs as "@nrwl/nx/workspace/a-new-rule"
-export const RULE_NAME = 'a-new-rule';
+// NOTE: The rule will be available in ESLint configs as "@nrwl/nx/workspace/d-new-rule"
+export const RULE_NAME = 'd-new-rule';
 
 export const rule = ESLintUtils.RuleCreator(() => __filename)({
   name: RULE_NAME,

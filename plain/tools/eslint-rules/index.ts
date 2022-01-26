@@ -1,3 +1,15 @@
+import {
+  RULE_NAME as dNewRuleName,
+  rule as dNewRule,
+} from './rules/d-new-rule';
+import {
+  RULE_NAME as cNewRuleName,
+  rule as cNewRule,
+} from './rules/c-new-rule';
+import {
+  RULE_NAME as bNewRuleName,
+  rule as bNewRule,
+} from './rules/b-new-rule';
 /**
  * Import your custom workspace rules at the top of this file.
  *
@@ -23,5 +35,9 @@ module.exports = {
    *  [myCustomRuleName]: myCustomRule
    * }
    */
-  rules: {},
+  rules: {
+    [bNewRuleName]: bNewRule,
+    [cNewRuleName]: cNewRule,
+    [dNewRuleName]: dNewRule,
+  },
 };
